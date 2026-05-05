@@ -1,0 +1,15 @@
+{
+  "name": "corbit-sms-slack",
+  "version": "1.0.0",
+  "description": "Corbit SMS Slack App - Send SMS via api.mobile.net.sa",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@slack/bolt": "^3.17.0",
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2"
+  }
+}
